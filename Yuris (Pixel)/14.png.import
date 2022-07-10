@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/2.png-0bd98bc6fe5694fff2fae197e1ef2ed2.stex"
+path="res://.import/14.png-e367fed4eae5b780e395e517487fa4bd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Smol Yuris/2.png"
-dest_files=[ "res://.import/2.png-0bd98bc6fe5694fff2fae197e1ef2ed2.stex" ]
+source_file="res://Yuris (Pixel)/14.png"
+dest_files=[ "res://.import/14.png-e367fed4eae5b780e395e517487fa4bd.stex" ]
 
 [params]
 

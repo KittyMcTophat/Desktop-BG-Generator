@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://TheScript.gd" type="Script" id=1]
 [ext_resource path="res://Yuris (Pixel)/17.png" type="Texture" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://Yuris (Pixel)/3.png" type="Texture" id=19]
 [ext_resource path="res://Yuris (Pixel)/10.png" type="Texture" id=20]
 [ext_resource path="res://Yuris (Pixel)/18.png" type="Texture" id=21]
+[ext_resource path="res://Yuris (Pixel)/13.png" type="Texture" id=22]
 
 [node name="ColorRect" type="ColorRect"]
 anchor_right = 1.0
@@ -224,6 +225,7 @@ color = Color( 0.603922, 0.25098, 0.654902, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect13"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+texture = ExtResource( 22 )
 stretch_mode = 4
 
 [node name="ColorRect14" type="ColorRect" parent="MarginContainer/GridContainer"]

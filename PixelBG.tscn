@@ -6,10 +6,8 @@
 [ext_resource path="res://Yuris (Pixel)/23.png" type="Texture" id=4]
 [ext_resource path="res://Yuris (Pixel)/8.png" type="Texture" id=5]
 [ext_resource path="res://Yuris (Pixel)/14.png" type="Texture" id=6]
-[ext_resource path="res://Yuris (Pixel)/11.png" type="Texture" id=7]
 [ext_resource path="res://Yuris (Pixel)/12.png" type="Texture" id=8]
 [ext_resource path="res://Yuris (Pixel)/2.png" type="Texture" id=9]
-[ext_resource path="res://Yuris (Pixel)/19.png" type="Texture" id=10]
 [ext_resource path="res://Yuris (Pixel)/20.png" type="Texture" id=11]
 [ext_resource path="res://Yuris (Pixel)/24.png" type="Texture" id=12]
 [ext_resource path="res://Yuris (Pixel)/16.png" type="Texture" id=13]
@@ -22,6 +20,8 @@
 [ext_resource path="res://Yuris (Pixel)/10.png" type="Texture" id=20]
 [ext_resource path="res://Yuris (Pixel)/18.png" type="Texture" id=21]
 [ext_resource path="res://Yuris (Pixel)/13.png" type="Texture" id=22]
+[ext_resource path="res://Yuris (Pixel)/7.png" type="Texture" id=23]
+[ext_resource path="res://Yuris (Pixel)/1.png" type="Texture" id=24]
 
 [node name="ColorRect" type="ColorRect"]
 anchor_right = 1.0
@@ -54,6 +54,7 @@ color = Color( 0.760784, 0.317647, 0.823529, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+texture = ExtResource( 24 )
 stretch_mode = 4
 
 [node name="ColorRect2" type="ColorRect" parent="MarginContainer/GridContainer"]
@@ -137,6 +138,7 @@ color = Color( 0.760784, 0.317647, 0.823529, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect7"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+texture = ExtResource( 23 )
 stretch_mode = 4
 
 [node name="ColorRect8" type="ColorRect" parent="MarginContainer/GridContainer"]
@@ -195,7 +197,6 @@ color = Color( 0.603922, 0.25098, 0.654902, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect11"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 7 )
 stretch_mode = 4
 
 [node name="ColorRect12" type="ColorRect" parent="MarginContainer/GridContainer"]
@@ -210,6 +211,7 @@ color = Color( 0.760784, 0.317647, 0.823529, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect12"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -24.0
 texture = ExtResource( 8 )
 stretch_mode = 4
 
@@ -313,7 +315,6 @@ color = Color( 0.760784, 0.317647, 0.823529, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect19"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 10 )
 stretch_mode = 4
 
 [node name="ColorRect20" type="ColorRect" parent="MarginContainer/GridContainer"]
@@ -328,6 +329,7 @@ color = Color( 0.603922, 0.25098, 0.654902, 1 )
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/GridContainer/ColorRect20"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -24.0
 texture = ExtResource( 11 )
 stretch_mode = 4
 
